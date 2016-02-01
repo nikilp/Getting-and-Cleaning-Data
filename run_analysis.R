@@ -29,6 +29,7 @@ activity <- c(read.table("./UCI HAR Dataset/train/y_train.txt"),
 features <- read.csv("./UCI HAR Dataset/features.txt", sep = " ", header = FALSE)  # List of all features.
 features[,2] <- gsub("-mean", "Mean", features[,2])
 features[,2] <- gsub("-std", "Std", features[,2])
+features[,2] <- gsub("\\()","",features[,2])
 features[,2] <- gsub("-", "", features[,2])
 names(X) <- features[,2]
 subject <- unlist(c(read.table("./UCI HAR Dataset/train/subject_train.txt"), 
