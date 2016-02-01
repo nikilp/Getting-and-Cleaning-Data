@@ -17,6 +17,7 @@ This document describes the summarised variables in the tidy data set `summarise
 
 ### Measurements
 <<<<<<< HEAD
+<<<<<<< HEAD
 The following codebook gives the relationship between the variable names of the input and the output data sets corresponding to the mean and the standard deviation of the measurements. The new column names describe the variables in tidy camelCase format.
 
 | `Old Value`	| `New (Tidy) Value` |
@@ -110,6 +111,9 @@ The following codebook gives the relationship between the variable names of the 
 
 =======
 The following codebook gives the relationship between the variable names of the input and the output data sets corresponding to the mean and the standard deviation of the measurements:
+=======
+The following codebook gives the relationship between the variable names of the input and the output data sets corresponding to the mean and the standard deviation of the measurements. The new column names describe the variables in tidy camelCase format.
+>>>>>>> 0b1dbe0e688c7b41f4c5c243541061d0d549c03c
 
 | `Old Value`	| `New (Tidy) Value` |
 | -------------------|----------------|
